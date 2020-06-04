@@ -1,2 +1,2 @@
 # exeraxweb
-Team developing and building the main website for the Exerax at https://exerax.com
+Team developing and building the main website for the Exerax Gaming Network (EGN)
