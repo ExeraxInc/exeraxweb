@@ -41,6 +41,24 @@ body {
   font-size: 14px;
 }
 
+.btn2 {
+  display: inline-block;
+  padding: 18.5px 40px;
+  border-radius: 0;
+  font-size: 15px;
+  font-family: "Aclonica", sans-serif;
+  font-weight: 500;
+  color: #fff;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+  text-transform: capitalize;
+  background-size: 200% auto;
+  border: 1px solid transparent;
+  margin-left: 65px;
+
+}
+
 /* line 9, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
 .message_submit_form:focus {
   outline: none;
