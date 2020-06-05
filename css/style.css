@@ -456,7 +456,6 @@ ul {
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 3640px) {
-  /* line 238, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
   .container {
     max-width: 1200px;
   }
@@ -6036,7 +6035,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 9, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_contact.scss */
 .contact-info__icon i, .contact-info__icon span {
-  color: #8f9195;
+  color: #fff;
   font-size: 27px;
 }
 
@@ -6045,7 +6044,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 16px;
   margin-bottom: 0;
   font-size: 16px;
-  color: #2a2a2a;
+  color: #fff;
 }
 
 /* line 23, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_contact.scss */
@@ -6114,6 +6113,10 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0px !important;
     margin-top: 0px !important;
   }
+}
+
+.contact-bg {
+  background-image: url('../img/logo_bg.png');
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
