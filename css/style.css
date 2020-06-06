@@ -1,5 +1,5 @@
 /**************** extend css start ****************/
-@import url("https://fonts.googleapis.com/css?family=Aclonica|Poppins:300,400,500,600&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Holtwood One|Poppins:300,400,500,600&display=swap");
 /* line 2, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_extends.scss */
 .btn_1, .live_stareams .live_stareams_slide .live_stareams_slide_img:after, .Latest_War .Latest_War_text:after, .gallery_part .single_gallery_item .single_gallery_item_iner:after, .footer_part .single_footer_part .mail_part .email_icon {
   background-image: -webkit-gradient(linear, right top, left top, from(#ff0000), color-stop(51%, #2ba2e4), to(#ff0000));
@@ -35,7 +35,7 @@
 /**************** common css start ****************/
 /* line 3, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
 body {
-  font-family: "Aclonica", sans-serif;
+  font-family: 'Holtwood One SC', serif;
   padding: 0;
   margin: 0;
   font-size: 14px;
@@ -46,7 +46,7 @@ body {
   padding: 18.5px 40px;
   border-radius: 0;
   font-size: 15px;
-  font-family: "Aclonica", sans-serif;
+  font-family: 'Holtwood One SC', serif;
   font-weight: 500;
   color: #fff;
   -o-transition: all .4s ease-in-out;
@@ -55,7 +55,7 @@ body {
   text-transform: capitalize;
   background-size: 200% auto;
   border: 1px solid transparent;
-  margin-left: 65px;
+  margin-left: 100px;
 
 }
 
@@ -222,7 +222,8 @@ a:hover {
 /* line 87, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
 h1, h2, h3, h4, h5, h6 {
   color: #fff;
-  font-family: "Aclonica", sans-serif;
+  font-family: 'Holtwood One SC', serif;
+  text-transform: uppercase;
 }
 
 /* line 91, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
@@ -2250,7 +2251,7 @@ ul {
 }
 
 /* line 42, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
-.main_menu .main-menu-item .nav-item a:before {
+/* .main_menu .main-menu-item .nav-item a:before {
   position: absolute;
   left: 16%;
   top: 49px;
@@ -2259,6 +2260,10 @@ ul {
   content: "";
   -webkit-transition: 0.5s;
   transition: 0.5s;
+} */
+
+.single_page_menu .main-menu-item .nav-item a:hover {
+  color: #ff0000 !important;
 }
 
 /* line 53, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
@@ -2390,12 +2395,12 @@ ul {
   width: 100%;
   box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.05);
   top: 0;
-  background-color: #2ba2e4;
+  background-color: rgba(5, 6, 24, 0.9);
 }
 
 /* line 179, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
 .menu_fixed .active_color {
-  color: #2ba2e4 !important;
+  color: #050618 !important;
 }
 
 /* line 185, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
@@ -2569,7 +2574,7 @@ ul {
 }
 
 /* line 361, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
-.single_page_menu .main-menu-item .nav-item a:before {
+/* .single_page_menu .main-menu-item .nav-item a:before {
   position: absolute;
   left: 16%;
   top: 49px;
@@ -2578,7 +2583,7 @@ ul {
   content: "";
   -webkit-transition: 0.5s;
   transition: 0.5s;
-}
+} */
 
 /* line 372, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
 .single_page_menu .main-menu-item .nav-item a:hover:before {
@@ -2625,7 +2630,7 @@ ul {
 /* line 22, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_banner.scss */
 .banner_part .banner_text h1 {
   font-size: 60px;
-  text-transform: capitalize;
+  text-transform: uppercase;
   font-weight: 700;
   margin-bottom: 32px;
   line-height: 70px;
@@ -2736,9 +2741,9 @@ ul {
   height: 70%;
 }
 
-.elogo {
+.twlogo {
   border-radius: 100px;
-  height: 70%;
+  height: 80%;
 }
 
 .tlogo {
