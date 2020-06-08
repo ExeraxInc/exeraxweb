@@ -1,0 +1,855 @@
+/************************************ FONTS ************************************/
+
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,700);
+@import url(https://weloveiconfonts.com/api/?family=entypo|fontawesome|zocial);
+
+/* entypo */
+
+[class*="entypo-"]:before {
+	font-family: 'entypo', sans-serif;
+}
+
+
+/* fontawesome */
+
+[class*="fontawesome-"]:before {
+	font-family: 'FontAwesome', sans-serif;
+}
+
+
+/* zocial */
+
+[class*="zocial-"]:before {
+	font-family: 'zocial', sans-serif;
+}
+
+/* @font-face {
+	font-family: 'icomoon';
+	src: url('https://jlalovi-cv.herokuapp.com/font/icomoon.eot');
+	src: url('https://jlalovi-cv.herokuapp.com/font/icomoon.eot?#iefix') format('embedded-opentype'), url('https://jlalovi-cv.herokuapp.com/font/icomoon.ttf') format('truetype'), url('https://jlalovi-cv.herokuapp.com/font/icomoon.woff') format('woff'), url('https://jlalovi-cv.herokuapp.com/font/icomoon.svg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+} */
+
+[class^="icon-"],
+[class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-cloudy:before {
+	content: "\e60f";
+}
+
+.icon-sun:before {
+	content: "\e610";
+}
+
+.icon-cloudy2:before {
+	content: "\e611";
+}
+
+
+/************************************* END FONTS *************************************/
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+    background-image: url("../img/live_stareams_bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding-left: 0;
+}
+
+h1 {
+	font-size: 23px;
+}
+
+h2 {
+	font-size: 17px;
+}
+
+p {
+	font-size: 15px;
+}
+
+a {
+	text-decoration: none;
+	font-size: 15px;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+h1,
+h2,
+p,
+a,
+span {
+	color: #fff;
+}
+
+.scnd-font-color {
+    color: #9099b7;
+}
+
+.dob-secondary {
+    position: absolute;
+    margin-left: 1%;
+}
+
+.input-container {
+	position: relative;
+}
+
+input[type=text] {
+	width: 260px;
+	height: 50px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	padding-left: 45px;
+	background: #50597b;
+	color: #fff;
+	border: solid 1px #1f253d;
+	border-radius: 5px;
+}
+
+input[type=text]::-webkit-input-placeholder {
+	/* WebKit browsers */
+	color: #fff;
+}
+
+input[type=text]:-moz-input-placeholder {
+	/* Mozilla Firefox 4 to 18 */
+	color: #fff;
+}
+
+input[type=text]::-moz-input-placeholder {
+	/* Mozilla Firefox 19+ */
+	color: #fff;
+}
+
+input[type=text]:-ms-input-placeholder {
+	/* Internet Explorer 10+ */
+	color: #fff;
+}
+
+input[type=text]:focus {
+	outline: none;
+	/* removes the default orange border when focus */
+	border: 1px solid #11a8ab;
+}
+
+.input-icon {
+	font-size: 22px;
+	position: absolute;
+	left: 31px;
+	top: 10px;
+}
+
+.input-icon.password-icon {
+	left: 35px;
+}
+
+.horizontal-list {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.horizontal-list li {
+	float: left;
+}
+
+.clear {
+	clear: both;
+}
+
+.icon {
+	font-size: 25px;
+}
+
+.titular {
+	display: block;
+	line-height: 60px;
+	margin: 0;
+	text-align: center;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.server-info {
+	display: block;
+	line-height: 60px;
+	margin: 0;
+	text-align: center;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	background-color: #b8024c;
+}
+
+.server-status {
+	display: block;
+	line-height: 60px;
+	margin: 0;
+	text-align: center;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	background-color: #b8024c;
+}
+
+.server-onboarding {
+	display: block;
+	line-height: 60px;
+	margin: 0;
+	text-align: center;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	background-color: #f5790b;
+}
+
+.margin-left-bottom {
+	margin-left: -15.8%;
+	margin-top: 20%;
+}
+
+.account-status {
+	display: block;
+	line-height: 60px;
+	margin: 0;
+	text-align: center;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	background-color: #3b1d82;
+}
+
+.button {
+	display: block;
+	width: 175px;
+	line-height: 50px;
+	font-size: 16px;
+	font-weight: 700;
+	text-align: center;
+	margin: 0 auto;
+	border-radius: 5px;
+	-webkit-transition: background .3s;
+	transition: background .3s;
+}
+
+.button:hover {
+	text-decoration: none;
+}
+
+.arrow-btn-container {
+	position: relative;
+}
+
+.arrow-btn {
+	position: absolute;
+	display: block;
+	width: 60px;
+	height: 60px;
+	-webkit-transition: background .3s;
+	transition: background .3s;
+}
+
+.arrow-btn:hover {
+	text-decoration: none;
+}
+
+.arrow-btn.left {
+	border-top-left-radius: 5px;
+}
+
+.arrow-btn.right {
+	border-top-right-radius: 5px;
+	right: 0;
+	top: 0;
+}
+
+.arrow-btn .icon {
+	display: block;
+	font-size: 18px;
+	border: 2px solid #fff;
+	border-radius: 100%;
+	line-height: 17px;
+	width: 21px;
+	margin: 20px auto;
+	text-align: center;
+}
+
+.arrow-btn.left .icon {
+	padding-right: 2px;
+}
+
+.profile-picture {
+	border-radius: 100%;
+	overflow: hidden;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+
+.big-profile-picture {
+	margin: 0 auto;
+	border: 5px solid #50597b;
+	width: 150px;
+	height: 150px;
+}
+
+.small-profile-picture {
+	border: 2px solid #50597b;
+	width: 40px;
+	height: 40px;
+}
+
+
+/** MAIN CONTAINER **/
+
+/* .main-container {
+    font-family: 'Ubuntu', sans-serif;
+	width: 950px;
+	height: 1725px;
+	margin: 6em auto;
+} */
+
+.full-width {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+}
+
+.margin-center {
+    position: relative;
+    margin-left: 25%;
+}
+
+.margin-top {
+    position: relative;
+    margin-top: 8%
+}
+
+/*********************************************** HEADER ***********************************************/
+
+/* header {
+	height: 80px;
+}
+
+.header-menu {
+	font-size: 17px;
+	line-height: 80px;
+}
+
+.header-menu li {
+	position: relative;
+	-webkit-transform: translateZ(0);
+	/** To avoid a flash when hover messages **/
+/* } */
+
+/* .header-menu-tab {
+	padding: 0 27px;
+	display: block;
+	line-height: 74px;
+	font-size: 17px;
+	-webkit-transition: background .3s;
+	transition: background .3s;
+}
+
+.header-menu-tab:hover {
+	background: #50597b;
+	border-bottom: 4px solid #11a8ab;
+	text-decoration: none;
+}
+
+.header-menu-tab .icon {
+	padding-right: 15px;
+}
+
+.header-menu-number {
+	position: absolute;
+	line-height: 22px;
+	padding: 0 6px;
+	font-weight: 700;
+	background: #e64c65;
+	border-radius: 100%;
+	top: 15px;
+	right: 2px;
+	-webkit-transition: all .3s linear;
+	transition: all .3s linear;
+}
+
+.header-menu li:hover .header-menu-number {
+	text-decoration: none;
+	-webkit-transform: rotate(360deg);
+	transform: rotate(360deg); */
+/* } */
+
+.profile-menu {
+	float: right;
+	height: 80px;
+    padding-right: 20px;
+    margin-top: 1.5%;
+}
+
+.profile-menu p {
+	font-size: 17px;
+	display: inline-block;
+	line-height: 76px;
+	margin: 0;
+	padding-right: 10px;
+}
+
+.profile-menu a {
+	padding-left: 5px;
+}
+
+.profile-menu a:hover {
+	text-decoration: none;
+}
+
+.small-profile-picture {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+
+/** CONTAINERS **/
+
+.container-profile {
+	float: left;
+	width: 300px;
+}
+
+.block-profile {
+	margin-bottom: 25px;
+	background: #394264;
+	border-radius: 5px;
+}
+
+
+/******************************************** LEFT CONTAINER *****************************************/
+
+.left-container {}
+
+.menu-box {
+	height: 360px;
+}
+
+.menu-box-onboarding {
+	height: 560px;
+}
+
+.menu-box .titular {
+	background: #11a8ab;
+}
+
+.menu-box-menu .icon {
+	display: inline-block;
+	vertical-align: top;
+	width: 28px;
+	margin-left: 20px;
+	margin-right: 15px;
+}
+
+.menu-box-number {
+	width: 36px;
+	line-height: 22px;
+	background: #50597b;
+	text-align: center;
+	border-radius: 15px;
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	-webkit-transition: all .3s;
+	transition: all .3s;
+}
+
+.menu-box-menu li {
+	height: 60px;
+	position: relative;
+}
+
+.menu-box-tab {
+	line-height: 60px;
+	display: block;
+	/* border-bottom: 1px solid #1f253d; */
+	-webkit-transition: background .2s;
+	transition: background .2s;
+}
+
+.menu-box-tab:hover {
+	background: #50597b;
+	/* border-top: 1px solid #1f253d; */
+	text-decoration: none;
+}
+
+.menu-box-tab:hover .icon {
+	color: #fff;
+}
+
+.menu-box-tab:hover .menu-box-number {
+	background: #e64c65;
+}
+
+.styling-link {
+    position: absolute;
+    right: 109%;
+    margin-top: 8%;
+}
+
+.text-align {
+    position: absolute;
+    left: 21%;
+    right: 0;
+    width: 236px;
+}
+
+.right-position {
+	margin-top: 0;
+	margin-right: 20%;
+}
+
+/************************************************** MIDDLE CONTAINER **********************************/
+
+.middle-container {
+	margin: 0 25px;
+}
+
+.profile {
+	height: 410px;
+}
+
+.add-button .icon {
+	float: right;
+	line-height: 18px;
+	width: 23px;
+	border: 2px solid;
+	border-radius: 100%;
+	font-size: 18px;
+	text-align: center;
+	margin: 10px;
+}
+
+.add-button .icon:hover {
+	color: #e64c65;
+	border-color: #e64c65;
+}
+
+.user-name {
+	margin: 25px 0 16px;
+	text-align: center;
+}
+
+.profile-description {
+	width: 210px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.profile-options {
+	padding-top: 23px;
+}
+
+/* .profile-options li {
+	border-left: 1px solid #1f253d;
+} */
+
+.profile-options p {
+	margin: 0;
+}
+
+.profile-options a {
+	display: block;
+	width: 99px;
+	line-height: 60px;
+	text-align: center;
+	-webkit-transition: background .3s;
+	transition: background .3s;
+}
+
+.profile-options a:hover {
+	text-decoration: none;
+	background: #50597b;
+}
+
+.profile-options a:hover.comments .icon {
+	color: #fcb150;
+}
+
+.profile-options a:hover.views .icon {
+	color: #11a8ab;
+}
+
+.profile-options a:hover.likes .icon {
+	color: #e64c65;
+}
+
+.profile-options .icon {
+	padding-right: 10px;
+}
+
+.weather {
+	height: 555px;
+}
+
+.weather .titular {
+	background: #cc324b;
+}
+
+.weather .titular .icon {
+	padding-right: 15px;
+	font-size: 26px;
+}
+
+.weather .current-day {
+	height: 135px;
+	background: #e64c65;
+}
+
+.weather .current-day p {
+	margin: 0;
+	padding-left: 50px;
+}
+
+.current-day-date {
+	font-size: 16px;
+	padding-top: 16px;
+}
+
+.m-character {
+	font-size: 40px;
+}
+
+.fa-class-align {
+    margin-top: 3%;
+    margin-left: 85%;
+}
+
+.job-main {
+    position: absolute;
+    margin: -1.4% 15% 15% 10%;
+}
+
+.second-char-job {
+    margin-left: 14px;
+    font-size: 10px;
+}
+
+.m-character .icon-cloudy {
+	padding-left: 20px;
+}
+
+.weather .next-days p {
+	margin: 0;
+	display: inline-block;
+	font-size: 16px;
+}
+
+.weather .next-days a {
+	display: block;
+	line-height: 58px;
+	border-bottom: 1px solid #1f253d;
+	-webkit-transition: background .3s;
+	transition: background .3s;
+}
+
+.weather .next-days a:hover {
+	background: #50597b;
+}
+
+.weather .next-days-date {
+	padding-left: 20px;
+}
+
+.weather .next-days-temperature {
+	float: right;
+	padding-right: 20px;
+}
+
+.weather .next-days-temperature .icon {
+	padding-left: 10px;
+}
+
+
+/********************************************* RIGHT CONTAINER ****************************************/
+
+.right-container {}
+
+.loading {
+	height: 200px;
+	padding-top: 35px;
+}
+
+.loading p {
+	display: inline-block;
+	padding-left: 30px;
+	margin: 5px 0 20px;
+}
+
+.loading .icon {
+	padding-right: 15px;
+}
+
+.loading .percentage {
+	float: right;
+	padding: 6px 35px 0 0;
+}
+
+.loading .progress-bar {
+	width: 250px;
+	height: 20px;
+	background: #50597b;
+	border-radius: 5px;
+	margin: 0 auto;
+}
+
+.progress-bar.downloading {
+	background: -webkit-linear-gradient(left, #11a8ab 81%, #50597b 81%);
+	/* Chrome10+,Safari5.1+ */
+	background: -ms-linear-gradient(left, #11a8ab 81%, #50597b 81%);
+	/* IE10+ */
+	background: linear-gradient(to right, #11a8ab 81%, #50597b 81%);
+	/* W3C */
+}
+
+.progress-bar.uploading {
+	background: -webkit-linear-gradient(left, #4fc4f6 43%, #50597b 43%);
+	/* Chrome10+,Safari5.1+ */
+	background: -ms-linear-gradient(left, #4fc4f6 43%, #50597b 43%);
+	/* IE10+ */
+	background: linear-gradient(to right, #4fc4f6 43%, #50597b 43%);
+	/* W3C */
+}
+
+.box{
+	width: 250px;
+	height: 200px;
+	position: absolute;
+	left: calc(68% - 125px);
+	top: calc(40% - -122px);
+	left: -webkit-calc(68% - 125px);
+	top: -webkit-calc(40% - -122px);
+  }
+  
+  .box span{
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+	position: absolute;
+  }
+  
+  .box span:nth-child(2){
+	top: 2px;
+	left: 125px;
+  }
+  
+  .box span:nth-child(7){
+	top: 85px;
+	left: 125px;
+  }
+  
+  .box span:nth-child(12){
+	top: 165px;
+	left: 125px;
+  }
+  
+  .server{
+	width: 110px;
+	height: 30px;
+	background: #3a3a3a;
+	border-radius: 1px;
+  }
+  
+  .server ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+  }
+  
+  .server:first-child ul li{
+	width: 6px;
+	height: 6px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 12px;
+	background: rgba(149,244,118,0.6);
+  }
+  
+  .server ul li:first-child{
+	-webkit-animation: pattern1 0.14s linear infinite;
+  }
+  
+  .server ul li:nth-child(2){
+	-webkit-animation: pattern1 0.14s 0.02s linear infinite;
+  }
+  
+  .server ul li:last-child{
+	-webkit-animation: pattern1 0.14s 0.05s linear infinite;
+  }
+  
+  @-webkit-keyframes pattern1{
+	0%{
+	  background: rgba(149,244,118,0.6);
+	}
+	100%{
+	  background: rgba(149,244,118,1);
+	}
+  }
+  
+  .error ul li{
+	width: 6px;
+	height: 6px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 12px;
+	background: rgba(236,69,62,0.6);
+  }
+  
+  .error ul li:first-child{
+	-webkit-animation: pattern3 0.9s linear infinite;
+  }
+  
+  .error ul li:nth-child(2){
+	-webkit-animation: pattern3 0.9s linear infinite;
+  }
+  
+  .error ul li:last-child{
+	-webkit-animation: pattern3 0.9s linear infinite;
+  }
+  
+  @-webkit-keyframes pattern3{
+	0%{
+	  background: rgba(236,69,62,0.6);
+	}
+	80%{
+	  background: rgba(236,69,62,0.6);
+	}
+	100%{
+	  background: rgba(236,69,62,1);
+	}
+}
+
+  
